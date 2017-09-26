@@ -1,0 +1,15 @@
+{
+  "name": "dsgn.sndprf.co",
+  "version": "1.0.0",
+  "description": "Homepage for dsgn.sndprf.co web development and design agency; built with Materialize and Nodejs",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon -e css,ejs,js,json --watch app --ignore data"
+  },
+  "author": "Aditya Niloi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "reload": "^2.2.2"
+  }
+}
